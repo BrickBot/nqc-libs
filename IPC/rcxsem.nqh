@@ -1,0 +1,36 @@
+//rcxsem.nqh
+//A collection of macros implementing semaphores for NQC
+//
+//This file is part of the NQCIPC package and should not be 
+//distributed separately. See
+//	http://www.geocities.com/ResearchTriangle/Station/2266/nqcipc/nqcipcdoc.html
+//
+//for details.
+//
+//(c)1999 Brian Connors under terms of the MPL
+//contact: connorbd@yahoo.com
+
+//semaphores version
+#define SEMVER 2
+
+//notational convenience
+#define sem int
+
+//set/clear values
+
+#define SSET 1			//semaphore is set
+#define SCLEAR 0		//semaphore is clear
+
+//semaphore operations
+
+//sem_clear -- sets a semaphore to 0
+#define sem_clear(s) 	s = 0;
+
+//sem_acquire -- waits for a semaphore to clear, then takes control
+#define sem_acquire(s) 	until (s == 0); s = 1;
+
+//sem_release -- clears a semaphore and relinquishes control
+#define sem_release(s)  s = 0;
+
+//Yes, technically it's identical to sem_clear, but you don't need 
+//to know that.
