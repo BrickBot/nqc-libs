@@ -11,8 +11,8 @@ Release Notes:
 
 -Updated code to use v2 until construct. 
 
-semaphores v2
-messages v2
-docs v2
+* semaphores v2
+* messages v2
+* docs v2
 
 contact connorbd (at) yahoo.com for more details
