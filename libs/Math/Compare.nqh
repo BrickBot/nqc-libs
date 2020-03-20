@@ -1,0 +1,36 @@
+/******RCX-Basic******/
+//Implements some basic functions for use in NQC programs.
+//Author: Ryan Bahm
+
+void min(int &returnValue, int x, int y)
+{
+	///Returns the smaller of two provided values.
+	if(x > y)
+	{
+		returnValue = y;
+	}
+	else
+	{
+		returnValue = x;
+	}
+}
+
+void max(int &returnValue, int x, int y)
+{
+	///Returns the larger of two provided values.
+	if(x < y)
+	{
+		returnValue = y;
+	}
+	else
+	{
+		returnValue = x;
+	}
+}
+
+void range(int &returnValue, int input, int min, int max)
+{
+	///If input is outside min/max, min/max is returned.
+	min(returnValue,input,max);
+	max(returnValue,input,min);
+}
