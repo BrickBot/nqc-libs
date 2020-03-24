@@ -2,6 +2,7 @@
 //Implements a trig table.
 //Returned values are times 100.
 //Author: Ryan Bahm
+//Original Website — https://github.com/rdbahm/RCX-Omni
 
 void fixAngle(int &angle)
 {
