@@ -1,14 +1,16 @@
-//rcxsem.nqh
-//A collection of macros implementing semaphores for NQC
-//
-//This file is part of the NQCIPC package and should not be 
-//distributed separately. See
-//	http://www.geocities.com/ResearchTriangle/Station/2266/nqcipc/nqcipcdoc.html
-//
-//for details.
-//
-//(c)1999 Brian Connors under terms of the MPL
-//contact: connorbd@yahoo.com
+/** rcxsem.nqh
+ *  A collection of macros implementing semaphores for NQC
+ *  
+ *  This file is part of the NQCIPC package and should not be 
+ *  distributed separately. See
+ *    http://www.geocities.com/ResearchTriangle/Station/2266/nqcipc/nqcipcdoc.html
+ *    https://web.archive.org/web/20091026230348/http://www.geocities.com/ResearchTriangle/Station/2266/nqcipc/nqcipcdoc.html
+ *  
+ *  for details.
+ *  
+ *  (c)1999 Brian Connors under terms of the MPL
+ *  contact: connorbd@yahoo.com
+ */
 
 //semaphores version
 #define SEMVER 2
