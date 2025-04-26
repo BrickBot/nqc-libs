@@ -7,9 +7,9 @@
  *  License: Unlicense License - https://unlicense.org/
  */
 
-void fixAngle(int &angle)
+/// Given an angle outside 0-360, moves it back into range.
+void FixAngle(int &angle)
 {
-	///Given an angle outside 0-360, moves it back into range.
 	while(angle >= 360)
 	{
 		angle=angle-360;
@@ -20,12 +20,12 @@ void fixAngle(int &angle)
 	}
 }
 
-void cos(int &returnValue, int angle)
+/// Simple cosine table.
+void Cosine(int &returnValue, int angle)
 {
-	///Simple cosine table.
-	///I could do this more simply but where's the fun in that?
+	/// I could do this more simply but where's the fun in that?
 	
-	fixAngle(angle); //Brings angle to 0-360.
+	FixAngle(angle); //Brings angle to 0-360.
 	
 	if (angle <= 30)
     {

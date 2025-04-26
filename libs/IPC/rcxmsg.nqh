@@ -12,29 +12,28 @@
  *  contact: connorbd@yahoo.com
  */
 
-//messages version
+// messages version
 #define MSGVER 2
 
-//notational convenience
+// notational convenience
 #define msg int
 
-//message operations
 
-//msg_clear -- clears a specified message buffer b
-#define msg_clear(b) 	b = 0;
+// Message Operations
 
-//msg_send -- places a value m in a specified message buffer b
-#define msg_send(b,m)	b = m;
+// MsgClear -- clears a specified message buffer b
+#define MsgClear(b) 	b = 0;
 
-//msg_await -- watches message buffer b, then blocks until 
-//	an expected value m appears
-#define msg_await(b,m) 	until (b == m);
+// MsgSend -- places a value m in a specified message buffer b
+#define MsgSend(b,m)	b = m;
 
-//msg_read -- takes the contents of message buffer b and copies 
-//	to specified variable v
+// MsgAwait -- watches message buffer b, then blocks until 
+//	 an expected value m appears
+#define MsgAwait(b,m) 	until (b == m);
 
-#define msg_read(b,v)	v = b;
+// MsgRead -- takes the contents of message buffer b and copies 
+//	 to specified variable v
+#define MsgRead(b,v)	v = b;
 
-//msg_biff -- is there a message in the first place?
-
-#define msg_biff(b)		b > 0
+// MsgBiff -- is there a message in the first place?
+#define MsgBiff(b)		b > 0

@@ -6,9 +6,9 @@
  *  License: Unlicense License - https://unlicense.org/
  */
 
-void min(int &returnValue, int x, int y)
+/// Returns the smaller of two provided values.
+void Min(int &returnValue, int x, int y)
 {
-	///Returns the smaller of two provided values.
 	if(x > y)
 	{
 		returnValue = y;
@@ -19,9 +19,9 @@ void min(int &returnValue, int x, int y)
 	}
 }
 
-void max(int &returnValue, int x, int y)
+/// Returns the larger of two provided values.
+void Max(int &returnValue, int x, int y)
 {
-	///Returns the larger of two provided values.
 	if(x < y)
 	{
 		returnValue = y;
@@ -32,9 +32,9 @@ void max(int &returnValue, int x, int y)
 	}
 }
 
-void range(int &returnValue, int input, int min, int max)
+/// If input is outside min/max, return min or max as appropriate.
+void Range(int &returnValue, int input, int min, int max)
 {
-	///If input is outside min/max, min/max is returned.
-	min(returnValue,input,max);
-	max(returnValue,input,min);
+	Min(returnValue,input,max);
+	Max(returnValue,input,min);
 }
