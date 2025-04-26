@@ -1,8 +1,10 @@
-/******RCX-Trig******/
-//Implements a trig table.
-//Returned values are times 100.
-//Author: Ryan Bahm
-//Original Website — https://github.com/rdbahm/RCX-Omni
+/** Trigonometry library for NQC
+ *  Implements a trig table.
+ *  Returned values are times 100.
+ *  Author: Ryan Bahm
+ *  Original Website - https://github.com/rdbahm/RCX-Omni
+ *  License: Unlicense License - https://unlicense.org/
+ */
 
 void fixAngle(int &angle)
 {
