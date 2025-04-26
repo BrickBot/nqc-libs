@@ -1,9 +1,9 @@
 NQCIPC v19991016
 ================
 Original website: http://www.geocities.com/ResearchTriangle/Station/2266/nqcipc/nqcipcdoc.html
+* [Archived Copy](https://web.archive.org/web/20091026230348/http://www.geocities.com/ResearchTriangle/Station/2266/nqcipc/nqcipcdoc.html)
 
-
-This is the October 16, 1999 release of NQCIPC.
+This is the October 16, 1999, Mozilla Public License release of NQCIPC.
 
 Release Notes:
 
