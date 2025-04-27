@@ -1,20 +1,20 @@
-/*
- * rcxvll.nqh -- Copyright 2013 Michiel Tiller
+/** Visible Light Link (VLL) library for NQC
+ *  rcxvll.nqh -- Copyright 2013 Michiel Tiller
  * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details. 
- * see <http://www.gnu.org/licenses/>. 
- * 
- * Each VLL command consists of:
- * vll_start, 3 checksum bits (vll_0 | vll_1), 7 data bits, and vll_stop
- * VLL output must be ON for at least 400mS (wait 40) before vll_start
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *  
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details. 
+ *  see <http://www.gnu.org/licenses/>. 
+ *  
+ *  Each VLL command consists of:
+ *  vll_start, 3 checksum bits (vll_0 | vll_1), 7 data bits, and vll_stop
+ *  VLL output must be ON for at least 400mS (wait 40) before vll_start
  */
 
 #define vll_init(v)  { OnFwd(v); Wait(40); }

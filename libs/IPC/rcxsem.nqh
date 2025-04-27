@@ -1,6 +1,6 @@
-/** rcxsem.nqh
- *  A collection of macros implementing semaphores for NQC
- *  
+/** Semaphore Macros for NQC
+ *  rcxsem.nqh
+ *
  *  This file is part of the NQCIPC package and should not be 
  *  distributed separately. See
  *    http://www.geocities.com/ResearchTriangle/Station/2266/nqcipc/nqcipcdoc.html

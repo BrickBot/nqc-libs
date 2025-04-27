@@ -1,6 +1,6 @@
-/** rcxmsg.nqh
- *  A collection of macros implementing intertask messaging for NQC
- *  
+/** Intertask Messaging Macros for NQC
+ *  rcxmsg.nqh
+ *
  *  This file is part of the NQCIPC package and should not be 
  *  distributed separately. See
  *    http://www.geocities.com/ResearchTriangle/Station/2266/nqcipc/nqcipcdoc.html
