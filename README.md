@@ -1,4 +1,11 @@
-# nqc-libs
-A collection of NQC libraries from various sources, plus some programs as well as a full NQC tutorial with accompanying code samples.
+NQC Libs
+========
+A collection from various sources of NQC libraries, documents, tutorials, sample programs, etc.
 
-[Link to the NQC project itself](https://github.com/BrickBot/nqc).
+&nbsp;
+
+> [!NOTE]
+> All pertinent content on this project site has now been incorporated into the main
+> [NQC project](https://github.com/BrickBot/nqc).
+>
+> Moving forward, please refer to that project and direct any related inquiries there.
